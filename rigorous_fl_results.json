@@ -1,0 +1,165 @@
+{
+    "seeds_used": [
+        42,
+        123,
+        456,
+        789,
+        2024
+    ],
+    "clean_baseline": {
+        "local_acc_mean": 0.766,
+        "local_acc_std": 0.19037857022259624,
+        "local_f1_mean": 0.6973754268585755,
+        "local_f1_std": 0.2721739042257672,
+        "fedavg_acc_mean": 0.641,
+        "fedavg_acc_std": 0.16939303409526615,
+        "fedavg_f1_mean": 0.544624348310756,
+        "fedavg_f1_std": 0.24397886188427728,
+        "trust_acc_mean": 0.6409999999999999,
+        "trust_acc_std": 0.15904087524910065,
+        "trust_f1_mean": 0.5492143527528932,
+        "trust_f1_std": 0.23093522681042294
+    },
+    "non_iid": {
+        "Org_A": {
+            "class_0": 499,
+            "class_1": 269,
+            "total": 768,
+            "feature_mean": 0.03163648952928901,
+            "feature_std": 2.9063308299831747
+        },
+        "Org_B": {
+            "class_0": 1,
+            "class_1": 231,
+            "total": 232,
+            "feature_mean": 0.47247125620040403,
+            "feature_std": 2.7276100378090837
+        },
+        "method": "Dirichlet Partition",
+        "alpha": 0.3
+    },
+    "legit_non_iid": [
+        {
+            "client": "Org_A (Honest Non-IID)",
+            "trust_score": 0.95,
+            "quality_score": 0.9,
+            "anomaly_score": 0.0,
+            "normalized_weight": 0.5064975023269653,
+            "status": "LEGITIMATE (ACCEPTED)"
+        },
+        {
+            "client": "Org_B (Honest Non-IID)",
+            "trust_score": 0.95,
+            "quality_score": 0.9,
+            "anomaly_score": 0.025656552985310555,
+            "normalized_weight": 0.49350252747535706,
+            "status": "LEGITIMATE (ACCEPTED)"
+        }
+    ],
+    "poisoning_summary": {
+        "10%": {
+            "rate": 0.1,
+            "fedavg": {
+                "acc_mean": 0.585,
+                "acc_std": 0.04460941604639092,
+                "drop_mean": 0.05599999999999997,
+                "drop_std": 0.20821623375712084,
+                "f1_mean": 0.5172319881609841,
+                "f1_std": 0.08867970545857692,
+                "mal_weight": 0.5,
+                "detection": "FAILED"
+            },
+            "trust_weighted": {
+                "acc_mean": 0.767,
+                "acc_std": 0.18901322705038395,
+                "drop_mean": -0.126,
+                "drop_std": 0.2954048070021881,
+                "f1_mean": 0.6993848026726365,
+                "f1_std": 0.2697644890243483,
+                "mal_weight_mean": 0.0030928973820832876,
+                "anomaly_score_mean": 1.0,
+                "trust_score_mean": 0.4,
+                "reduction_mean": 0.9938142052358334,
+                "detection": "PASSED"
+            }
+        },
+        "20%": {
+            "rate": 0.2,
+            "fedavg": {
+                "acc_mean": 0.506,
+                "acc_std": 0.07806407624509498,
+                "drop_mean": 0.13499999999999998,
+                "drop_std": 0.21412613105363862,
+                "f1_mean": 0.4472965802868162,
+                "f1_std": 0.11151512879377294,
+                "mal_weight": 0.5,
+                "detection": "FAILED"
+            },
+            "trust_weighted": {
+                "acc_mean": 0.766,
+                "acc_std": 0.19037857022259624,
+                "drop_mean": -0.12500000000000003,
+                "drop_std": 0.29696801174537296,
+                "f1_mean": 0.6973754268585755,
+                "f1_std": 0.2721739042257672,
+                "mal_weight_mean": 0.0019904898816764352,
+                "anomaly_score_mean": 1.0,
+                "trust_score_mean": 0.3,
+                "reduction_mean": 0.9960190202366471,
+                "detection": "PASSED"
+            }
+        },
+        "30%": {
+            "rate": 0.3,
+            "fedavg": {
+                "acc_mean": 0.51,
+                "acc_std": 0.05683308895353129,
+                "drop_mean": 0.13099999999999998,
+                "drop_std": 0.15425303886795877,
+                "f1_mean": 0.42722348714665337,
+                "f1_std": 0.08761580946267554,
+                "mal_weight": 0.5,
+                "detection": "FAILED"
+            },
+            "trust_weighted": {
+                "acc_mean": 0.768,
+                "acc_std": 0.18996315432209482,
+                "drop_mean": -0.12700000000000003,
+                "drop_std": 0.2963882588767645,
+                "f1_mean": 0.7003977864060666,
+                "f1_std": 0.27069163665065266,
+                "mal_weight_mean": 0.0011068068622025458,
+                "anomaly_score_mean": 1.0,
+                "trust_score_mean": 0.2,
+                "reduction_mean": 0.9977863862755949,
+                "detection": "PASSED"
+            }
+        },
+        "40%": {
+            "rate": 0.4,
+            "fedavg": {
+                "acc_mean": 0.547,
+                "acc_std": 0.07379701890998039,
+                "drop_mean": 0.09399999999999996,
+                "drop_std": 0.18738729946290383,
+                "f1_mean": 0.4926051910809238,
+                "f1_std": 0.11287611630712722,
+                "mal_weight": 0.5,
+                "detection": "FAILED"
+            },
+            "trust_weighted": {
+                "acc_mean": 0.767,
+                "acc_std": 0.18901322705038395,
+                "drop_mean": -0.126,
+                "drop_std": 0.2954048070021881,
+                "f1_mean": 0.6993848026726365,
+                "f1_std": 0.2697644890243483,
+                "mal_weight_mean": 0.00044301694539816146,
+                "anomaly_score_mean": 1.0,
+                "trust_score_mean": 0.09999999999999998,
+                "reduction_mean": 0.9991139661092037,
+                "detection": "PASSED"
+            }
+        }
+    }
+}

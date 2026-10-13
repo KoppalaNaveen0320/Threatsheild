@@ -1,0 +1,7 @@
+subsystem,operation,iterations,mean_latency_ms,throughput_ops_sec
+CTI Normalization Engine,Normalize & Validate Indicator,2500,0.0088,114026.6
+STIX 2.1 Engine,Bundle 10 SDOs + SROs,200,11.6634,85.7
+Cryptographic Audit Ledger,SHA-256 Canonical Block Append,100,6.5062,153.7
+Cryptographic Audit Ledger,Full Hash-Chain Integrity Verification,50,4.9965,200.1
+Differential Privacy Engine,Laplace Noise Mechanism Evaluation,2000,0.0094,106422.6
+Secure Aggregation Prototype,4-Client Pairwise Mask & Unmask Aggregation,100,8.3205,120.2

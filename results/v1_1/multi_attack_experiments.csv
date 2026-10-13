@@ -1,0 +1,31 @@
+seed,attack_type,attack_intensity,clean_accuracy,fedavg_poisoned_acc,fedavg_acc_change_vs_clean,coord_median_poisoned_acc,coord_median_acc_change_vs_clean,trimmed_mean_poisoned_acc,trimmed_mean_acc_change_vs_clean,trust_weighted_poisoned_acc,trust_weighted_acc_change_vs_clean,malicious_weight_trust,malicious_influence_reduction
+42,Gaussian Parameter Poisoning,10%,0.732,0.476,0.248,0.624,-0.156,0.632,-0.054,0.566,0.166,0.0596,0.702
+42,Gaussian Parameter Poisoning,20%,0.732,0.508,0.216,0.466,0.002,0.466,0.112,0.49,0.242,0.0419,0.7904
+42,Gaussian Parameter Poisoning,30%,0.732,0.488,0.236,0.53,-0.062,0.506,0.072,0.566,0.166,0.0235,0.8825
+42,Gaussian Parameter Poisoning,40%,0.732,0.478,0.246,0.532,-0.064,0.512,0.066,0.646,0.086,0.0091,0.9546
+42,Gradient Sign Flip,Scale -1.5x,0.732,0.536,0.188,0.562,-0.094,0.536,0.042,0.704,0.028,0.0362,0.8189
+42,Parameter Scaling,Scale 10.0x,0.732,0.464,0.26,0.464,0.004,0.464,0.114,0.782,-0.05,0.0129,0.9355
+123,Gaussian Parameter Poisoning,10%,0.766,0.528,0.238,0.628,0.07,0.714,-0.008,0.714,0.052,0.0589,0.7057
+123,Gaussian Parameter Poisoning,20%,0.766,0.592,0.174,0.584,0.114,0.69,0.016,0.624,0.142,0.0412,0.7939
+123,Gaussian Parameter Poisoning,30%,0.766,0.604,0.162,0.634,0.064,0.63,0.076,0.71,0.056,0.0231,0.8843
+123,Gaussian Parameter Poisoning,40%,0.766,0.632,0.134,0.648,0.05,0.76,-0.054,0.802,-0.036,0.0089,0.9556
+123,Gradient Sign Flip,Scale -1.5x,0.766,0.596,0.17,0.528,0.17,0.63,0.076,0.804,-0.038,0.0354,0.823
+123,Parameter Scaling,Scale 10.0x,0.766,0.688,0.078,0.522,0.176,0.55,0.156,0.79,-0.024,0.0111,0.9446
+456,Gaussian Parameter Poisoning,10%,0.54,0.496,0.042,0.61,-0.11,0.508,0.048,0.506,0.034,0.0592,0.7038
+456,Gaussian Parameter Poisoning,20%,0.54,0.528,0.01,0.604,-0.104,0.55,0.006,0.538,0.002,0.0412,0.7938
+456,Gaussian Parameter Poisoning,30%,0.54,0.394,0.144,0.502,-0.002,0.502,0.054,0.504,0.036,0.0232,0.8841
+456,Gaussian Parameter Poisoning,40%,0.54,0.468,0.07,0.57,-0.07,0.55,0.006,0.512,0.028,0.0089,0.9555
+456,Gradient Sign Flip,Scale -1.5x,0.54,0.504,0.034,0.5,0.0,0.506,0.05,0.532,0.008,0.0356,0.8219
+456,Parameter Scaling,Scale 10.0x,0.54,0.758,-0.22,0.712,-0.212,0.778,-0.222,0.57,-0.03,0.0139,0.9306
+789,Gaussian Parameter Poisoning,10%,0.696,0.486,0.206,0.528,0.092,0.602,0.072,0.56,0.136,0.0595,0.7027
+789,Gaussian Parameter Poisoning,20%,0.696,0.536,0.156,0.504,0.116,0.55,0.124,0.628,0.068,0.0416,0.7919
+789,Gaussian Parameter Poisoning,30%,0.696,0.522,0.17,0.566,0.054,0.658,0.016,0.656,0.04,0.0234,0.8829
+789,Gaussian Parameter Poisoning,40%,0.696,0.47,0.222,0.51,0.11,0.542,0.132,0.642,0.054,0.009,0.955
+789,Gradient Sign Flip,Scale -1.5x,0.696,0.696,-0.004,0.63,-0.01,0.674,0.0,0.672,0.024,0.0358,0.8211
+789,Parameter Scaling,Scale 10.0x,0.696,0.76,-0.068,0.588,0.032,0.68,-0.006,0.678,0.018,0.012,0.9399
+2024,Gaussian Parameter Poisoning,10%,0.464,0.476,-0.012,0.55,0.026,0.458,0.004,0.454,0.01,0.059,0.7049
+2024,Gaussian Parameter Poisoning,20%,0.464,0.484,-0.02,0.526,0.05,0.458,0.004,0.464,0.0,0.0411,0.7946
+2024,Gaussian Parameter Poisoning,30%,0.464,0.44,0.024,0.466,0.11,0.472,-0.01,0.456,0.008,0.023,0.885
+2024,Gaussian Parameter Poisoning,40%,0.464,0.416,0.048,0.504,0.072,0.458,0.004,0.46,0.004,0.0089,0.9556
+2024,Gradient Sign Flip,Scale -1.5x,0.464,0.456,0.008,0.498,0.078,0.484,-0.022,0.458,0.006,0.0337,0.8314
+2024,Parameter Scaling,Scale 10.0x,0.464,0.73,-0.266,0.61,-0.034,0.646,-0.184,0.456,0.008,0.0138,0.9308

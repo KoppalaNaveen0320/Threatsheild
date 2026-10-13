@@ -1,0 +1,98 @@
+{
+    "env": {},
+    "auth": {
+        "org": "FAILED"
+    },
+    "cti": {},
+    "privacy": {},
+    "ledger": {},
+    "fl": {
+        "non_iid": {
+            "OrgA_class_0": 190,
+            "OrgA_class_1": 210,
+            "OrgB_class_0": 197,
+            "OrgB_class_1": 203
+        },
+        "local_acc": 0.88,
+        "math_weights": [
+            {
+                "name": "Honest",
+                "T": 0.9,
+                "Q": 0.9,
+                "A_anomaly": 0.05,
+                "W_raw": 0.7695,
+                "Final_Weight": 0.4565410857312371
+            },
+            {
+                "name": "Low-Quality",
+                "T": 0.8,
+                "Q": 0.3,
+                "A_anomaly": 0.1,
+                "W_raw": 0.216,
+                "Final_Weight": 0.12815188371403147
+            },
+            {
+                "name": "Suspicious",
+                "T": 0.5,
+                "Q": 0.8,
+                "A_anomaly": 0.6,
+                "W_raw": 0.16000000000000003,
+                "Final_Weight": 0.09492732126965295
+            },
+            {
+                "name": "Malicious",
+                "T": 0.1,
+                "Q": 0.9,
+                "A_anomaly": 0.95,
+                "W_raw": 0.004500000000000005,
+                "Final_Weight": 0.0026698309107089915
+            },
+            {
+                "name": "Legit Non-IID",
+                "T": 0.9,
+                "Q": 0.85,
+                "A_anomaly": 0.3,
+                "W_raw": 0.5355,
+                "Final_Weight": 0.31770987837436965
+            }
+        ],
+        "poisoning": [
+            {
+                "strength": 10,
+                "baseline": 0.88,
+                "std_acc": 0.63,
+                "trust_acc": 0.62,
+                "std_drop": 0.25,
+                "trust_drop": 0.26,
+                "malicious_weight": 0.2962962962962963
+            },
+            {
+                "strength": 20,
+                "baseline": 0.88,
+                "std_acc": 0.53,
+                "trust_acc": 0.52,
+                "std_drop": 0.35,
+                "trust_drop": 0.36,
+                "malicious_weight": 0.24
+            },
+            {
+                "strength": 30,
+                "baseline": 0.88,
+                "std_acc": 0.57,
+                "trust_acc": 0.58,
+                "std_drop": 0.31000000000000005,
+                "trust_drop": 0.30000000000000004,
+                "malicious_weight": 0.1739130434782609
+            },
+            {
+                "strength": 40,
+                "baseline": 0.88,
+                "std_acc": 0.59,
+                "trust_acc": 0.58,
+                "std_drop": 0.29000000000000004,
+                "trust_drop": 0.30000000000000004,
+                "malicious_weight": 0.09523809523809523
+            }
+        ]
+    }
+}

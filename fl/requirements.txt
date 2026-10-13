@@ -1,0 +1,7 @@
+flwr
+torch
+torchvision
+scikit-learn
+pandas
+numpy
+requests

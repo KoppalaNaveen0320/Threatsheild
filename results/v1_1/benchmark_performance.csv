@@ -1,0 +1,10 @@
+subsystem,operation,iterations,total_duration_ms,mean_latency_ms,throughput_ops_sec,measured_environment
+CTI Normalizer,Multi-type validation & syntactic normalization,3000,27.1583,0.0091,110463.47,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+STIX 2.1 Engine,SDO + SRO generation & JSON bundle serialization (10 items),100,861.5808,8.6158,116.07,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Correlation Engine,Multi-entity graph construction & relational analytics,50,44.5138,0.8903,1123.25,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Trust Engine,Bounded EMA update & audit history logging,200,92.7324,0.4637,2156.74,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Relevance & Decision Engine,"Multi-factor Quality, Relevance, and ThreatShield scoring",500,7.0342,0.0141,71081.29,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Differential Privacy,Laplace noise generation & epsilon deduction,1000,11.6985,0.0117,85481.04,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Audit Ledger,SHA-256 canonical hashing & persistent chain append,100,500.5591,5.0056,199.78,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Audit Ledger,Full cryptographic hash-chain integrity verification,50,582.2885,11.6458,85.87,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Secure Aggregation,4-Client pairwise mask generation & zero-sum aggregation,100,279.0162,2.7902,358.4,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"

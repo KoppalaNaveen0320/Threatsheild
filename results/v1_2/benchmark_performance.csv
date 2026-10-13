@@ -1,0 +1,8 @@
+subsystem,operation,iterations,total_duration_ms,mean_latency_ms,throughput_ops_sec,measured_environment
+Knowledge Graph Engine,17-entity graph construction & PageRank/centrality analytics,50,250.6209,5.0124,199.5,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Graph Analytics,Multi-hop shortest threat path traversal & explainability,100,295.1536,2.9515,338.81,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+ThreatShield Score v2,"6-Factor Quality, Trust, Relevance, Freshness, Graph, Sighting scoring",500,14.7274,0.0295,33950.32,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Collusion Detection,Pairwise cosine matrix & Sybil cluster detection (5 clients),100,50.8009,0.508,1968.47,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Multi-Krum FL,Byzantine Euclidean distance matrix & top-m aggregation,100,63.9749,0.6397,1563.11,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Organization Risk Engine,"Multi-vector risk aggregation (Trust, FP, FL anomaly, Privacy)",200,698.7342,3.4937,286.23,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
+Event Correlation,Cross-subsystem multi-stage attack sequence correlation,100,161.2245,1.6122,620.25,"Local Prototype Benchmark (Intel x86_64, Python 3.10.11)"
